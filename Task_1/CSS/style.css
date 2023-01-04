@@ -1,0 +1,195 @@
+
+.con-main h6{
+    font-family:"Sigmar One";
+    word-spacing: 12px;
+    letter-spacing: 5px;
+    color:#fff;
+}
+h3{
+    color: #fff;
+}
+#title{
+    padding: 2% 7%;
+    background-color: rgb(6, 88, 125);
+}
+#mainpage{
+    padding: 2% 7%;
+    background-color: rgb(201, 201, 201);
+    background-image: url(/Task_1/images/tim-mossholder-WE_Kv_ZB1l0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: 100% 100%;
+}
+#mainpage p{
+    color: rgba(249, 249, 249, 0.985);
+    font-weight: bold;
+    font-family: "Monserrat";
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(6, 88, 125);
+    padding: 15px;
+    color: #fff;
+}
+.navbar a{
+    text-decoration: none;
+    color: inherit;
+}
+.navbar-brand{
+    margin-right: 50px;
+}
+.list{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    
+}
+.nav-item{
+    text-align: center;
+    border-radius: 20%;
+    font-weight: lighter;
+}
+.nav-item:hover{
+    font-weight: 500;
+}
+#dash{
+    display: none;
+}
+#toggler{
+      display: none;
+}
+.con-main{
+    padding-right: 35%;
+    text-align: left;
+    padding-top: 3%;
+}
+.child1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: grid;
+}
+.sp-1{
+    color: rgb(255, 248, 108);
+}
+#mainpage button{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+#mainpage button:hover{
+    border-color: rgb(6, 88, 125);
+    color: rgb(255, 246, 246);
+    background-color:rgb(6, 88, 125);
+   outline-offset: 4px;
+}
+#subscript{
+    background-color: #fff;
+    padding: 2% 7%;
+}
+#subscript .container{
+    background-color: #fff;
+}
+#subscript .row{
+    background-color: #fff;
+}
+.card{
+    text-align: center;
+   color: #000;
+}
+
+.card-header h3{
+    color: #000;
+}
+.card p{
+    color: #8f8f8f;
+}
+.card button{
+    width: 100%;
+    font-weight: bold;
+    line-height: 2em;
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+#about{
+    background-color:rgb(6, 88, 125) ;
+    padding: 2% 7%;
+}
+.col h5{
+    color: #fff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight:bold;
+    font-size: medium;
+    height: 10px;
+}
+.col-head{
+    margin-bottom: 20px;
+}
+.col-des p{
+    color: #fff;
+    font-weight: lighter;
+    display: grid;
+    margin: 0;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: small;
+}
+.col .img{
+    padding-top: 30px;
+}
+#footer{
+    background-color: #fff;
+}
+.foot-col1{
+    text-align: left;
+    font-weight: lighter;
+}
+.foot-col2{
+    text-align: right;
+}
+.fo-brand{
+    list-style: none;
+    display: inline-flex;
+    gap: 25px;  
+    color: #000;
+}
+
+@media screen and (max-width:800px) {
+    .menu{
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+    }
+    .list{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    .navbar label{
+        display: inline-flex;
+        align-items: center;
+        cursor: pointer;
+        padding-right: 10px;
+    }
+    #dash{
+        display: block;
+    }
+    #toggler:checked ~ .menu{
+        max-height: 100%;
+    }
+    .container{
+        padding: 2% 7%;
+    }
+ 
+   
+}
+@media screen and (max-width:930px) {
+    .about-col{
+        padding-bottom: 10px;
+    }
+}
